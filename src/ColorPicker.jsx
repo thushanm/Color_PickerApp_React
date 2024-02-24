@@ -23,7 +23,7 @@ export function ColorPicker(){
         setColor(e.target.value);
     }
     return(<div className="color-picker-div" id="mainDiv">
-            <h1 id="h1Main">Color Picker</h1>
+            <h1 id="h1Main">JTM Color Picker</h1>
             <div className="color-display" style={{backgroundColor:color}}>
 
                 <p >Select Color</p>
